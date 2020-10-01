@@ -97,3 +97,106 @@ html {
   border: 2px solid #396dff;
   border-radius: 0.6rem;
 }
+
+/* HERO SECTION DESIGN */
+.hero {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+
+.text-section {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 20rem;
+}
+
+/* Title Design */
+.title {
+  height: 5rem;
+  width: 11rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title p {
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #27c38f;
+}
+
+.title img {
+  height: 32px;
+  width: 32px;
+}
+
+.title img:hover {
+  transform: rotate(320deg);
+  transition: all 0.4s ease;
+}
+
+/* Big text Design */
+.big-txt {
+  font-size: 4rem;
+  color: #152b5a;
+  font-family: fantasy;
+  margin: 2rem 0;
+}
+
+/* Description Design */
+.description p {
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8691ae;
+  line-height: 3rem;
+}
+
+/* Email Box Design */
+.email-box {
+  margin: 2rem 0;
+  background: #f5f6f8;
+  height: 5rem;
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.email-input {
+  height: 100%;
+  width: 70%;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #152b5a;
+}
+
+.email-btn {
+  height: 80%;
+  width: 30%;
+  background: #2b61ff;
+  margin: 2px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.email-btn a {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+/* MENU WRAPP */
