@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* NAV WRAPPER DESIGN */
+.nav-wrapper {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO DESIGN */
+.logo {
+  height: 10vh;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo h1 {
+  font-size: 3rem;
+  font-family: fantasy;
+  color: #2b61ff;
+}
+
+/* LINKS DESIGN */
+.links {
+  height: 10vh;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b0b7c6;
+  font-weight: bold;
+  filter: grayscale(100%);
+}
+.links a:hover {
+  color: #2b3f6b;
+  filter: grayscale(0%);
+}
+
+.links a:hover::after {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #2c64ff;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  filter: grayscale(0%);
+}
+
+/* NAV BUTTONS DESIGN */
+.login-btns {
+  height: 10vh;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 4rem;
+}
+
+.btn {
+  min-height: 4.5rem;
+  min-width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 1rem;
+  color: #396dff;
+}
+
+.getstarted-btn {
+  border: 2px solid #396dff;
+  border-radius: 0.6rem;
+}
